@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.6*%
+%TF.CreationDate,2024-04-01T13:07:51+03:00*%
+%TF.ProjectId,SIM800 GPS Module,53494d38-3030-4204-9750-53204d6f6475,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.6) date 2024-04-01 13:07:51*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X120904000Y-75692000D02*
+X152908000Y-75692000D01*
+X152908000Y-97282000D01*
+X120904000Y-97282000D01*
+X120904000Y-75692000D01*
+M02*

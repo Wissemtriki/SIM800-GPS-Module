@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\PC\OneDrive\Desktop\ONLINE JOB\PCBWay\SIM800 GPS Module\SIM800 GPS Module.kicad_sch</source>
+    <date>01/04/2024 13:08:59</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SIM800 GPS Module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805B104K500NT_C38141.pdf?_gl=1*1kqcfo9*_ga*Njc1MDEyMTQ1LjE2OTU3MjE5MjE.*_ga_98M84MKSZH*MTcxMDMwNjYyNC4xNy4xLjE3MTAzMDg4MDcuNjAuMC4w</datasheet>
+      <fields>
+        <field name="LCSC">C38141</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C38141"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>303587bd-1470-4d41-9c12-96724440a845</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805B102K500NT_C46553.pdf?_gl=1*fxkdn3*_ga*Njc1MDEyMTQ1LjE2OTU3MjE5MjE.*_ga_98M84MKSZH*MTcxMDMwNjYyNC4xNy4wLjE3MTAzMDY2MjQuNjAuMC4w</datasheet>
+      <fields>
+        <field name="LCSC">C38141</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C38141"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>228c7d9f-cba9-4639-bf9f-f606bd0b34d4</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805B104K500NT_C38141.pdf?_gl=1*1kqcfo9*_ga*Njc1MDEyMTQ1LjE2OTU3MjE5MjE.*_ga_98M84MKSZH*MTcxMDMwNjYyNC4xNy4xLjE3MTAzMDg4MDcuNjAuMC4w</datasheet>
+      <fields>
+        <field name="LCSC">C38141</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C38141"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe82c417-1d03-4b9b-b36b-bb1cec6cf310</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805B103K500NT_C52278.pdf?_gl=1*1xupbpa*_ga*Njc1MDEyMTQ1LjE2OTU3MjE5MjE.*_ga_98M84MKSZH*MTcxMDMwNjYyNC4xNy4xLjE3MTAzMDY5MTcuNjAuMC4w</datasheet>
+      <fields>
+        <field name="LCSC">C52278</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C52278"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc5cc360-e395-4c0a-8153-e6d87ee1b663</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805B471K500NT_C1743.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1743</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1743"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5893650c-d286-4c2d-a5db-8523366d46c9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805CG2R2C500NT_C1801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1801</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1801"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd2790da-5c25-4d42-84fe-1c2c9c09147e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2105251941_OSRAM-Opto-Semicon-LY-Y876-Q2S1-26-0-20-R18-Z_C2830558.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2830558</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small_Filled" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="LCSC" value="C2830558"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49f6b4e0-2993-4f6e-ab39-ddae4514703f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2105251941_OSRAM-Opto-Semicon-LY-Y876-Q2S1-26-0-20-R18-Z_C2830558.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2830558</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small_Filled" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="LCSC" value="C2830558"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad26a929-8a8a-4e45-b9a1-fd84c2ae064c</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>ESDA6V1W5</value>
+      <footprint>ESDA6V1W5:SOT65P210X110-5N</footprint>
+      <fields>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESDA6V1W5/STMicroelectronics/view-part/?ref=eda</field>
+        <field name="Description">
+- Clamp - Ipp Tvs Diode Surface Mount SOT-323-5
+</field>
+        <field name="DigiKey_Part_Number">497-7228-2-ND</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.10mm</field>
+        <field name="MF">STMicroelectronics</field>
+        <field name="MP">ESDA6V1W5</field>
+        <field name="PARTREV">2</field>
+        <field name="Package">SOT-323 STMicroelectronics</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225154&amp;manufacturer=STMicroelectronics&amp;part_name=ESDA6V1W5&amp;search_term= esda6v1w5</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESDA6V1W5/STMicroelectronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ESDA6V1W5" part="ESDA6V1W5" description=""/>
+      <property name="DigiKey_Part_Number" value="497-7228-2-ND"/>
+      <property name="MF" value="STMicroelectronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.10mm"/>
+      <property name="Package" value="SOT-323 STMicroelectronics"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESDA6V1W5/STMicroelectronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESDA6V1W5/STMicroelectronics/view-part/?ref=snap"/>
+      <property name="MP" value="ESDA6V1W5"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225154&amp;manufacturer=STMicroelectronics&amp;part_name=ESDA6V1W5&amp;search_term= esda6v1w5"/>
+      <property name="Description" value="&#xA;- Clamp - Ipp Tvs Diode Surface Mount SOT-323-5&#xA;"/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85208194-bc2c-4349-903b-eee537c0b6de</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2105251941_OSRAM-Opto-Semicon-LY-Y876-Q2S1-26-0-20-R18-Z_C2830558.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2830558</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small_Filled" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="LCSC" value="C2830558"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aca30ec-1795-4008-9aa3-30ec34b4933f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>U.FL-R-SMT-1_10_</value>
+      <footprint>U.FL-R-SMT-1_10_:HRS_U.FL-R-SMT-1_10_</footprint>
+      <fields>
+        <field name="AVAILABILITY">Good</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle</field>
+        <field name="Description">
+U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
+</field>
+        <field name="DigiKey_Part_Number">H11891TR-ND</field>
+        <field name="MANUFACTURER">Hirose</field>
+        <field name="MF">Hirose</field>
+        <field name="MP">U.FL-R-SMT-1(10)</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">0.71 USD</field>
+        <field name="Package">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=55192&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT-1(10)&amp;search_term=None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="U.FL-R-SMT-1_10_" part="U.FL-R-SMT-1_10_" description=""/>
+      <property name="DigiKey_Part_Number" value="H11891TR-ND"/>
+      <property name="MF" value="Hirose"/>
+      <property name="DESCRIPTION" value="U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="0.71 USD"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=snap"/>
+      <property name="MP" value="U.FL-R-SMT-1(10)"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=55192&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT-1(10)&amp;search_term=None"/>
+      <property name="Description" value="&#xA;U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder&#xA;"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="MANUFACTURER" value="Hirose"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32715b78-5651-4e1b-b4d2-57204a622d86</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SIM8051-6-0-14-00-X-REVD</value>
+      <footprint>SIM8051_6_0_14_00_A:GCT_SIM8051-6-0-14-00-X-REVD</footprint>
+      <fields>
+        <field name="MANUFACTURER">GCT</field>
+      </fields>
+      <libsource lib="SIM8051-6-0-14-00-X-REVD" part="SIM8051-6-0-14-00-X-REVD" description=""/>
+      <property name="MANUFACTURER" value="GCT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b7423ba-c1db-4d43-89e8-92d648dcd7f3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04</value>
+      <footprint>282834-4:TE_282834-4</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b989367d-eb12-4b27-8bf5-8740d4eeef82</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81fe1c03-dac7-4f99-9612-6eb7047054a1</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8534a80-bc6e-474b-8a70-2324631eadc0</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74ec1dfa-e1e6-46b5-b86d-515c4d374e0f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210190030_YAGEO-RT0603BRB07470RL_C860404.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C860404</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C860404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d453d97b-a013-4198-b58f-8d999b219419</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210190030_YAGEO-RT0603BRB07470RL_C860404.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C860404</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C860404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2c07ee7-3dbe-4a41-a413-2149e111a3ad</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2308241947_FOJAN-FRC0402J472-TS_C2906941.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2906941</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C2906941"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7340a0a-c241-42b1-913e-569e6a1e0342</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Viking-Tech-ARG05FTC1002_C217770.pdf?_gl=1*wtcrtq*_ga*Njc1MDEyMTQ1LjE2OTU3MjE5MjE.*_ga_98M84MKSZH*MTcxMDMxMDczOC4xOC4xLjE3MTAzMTA3NDMuNTUuMC4w</datasheet>
+      <fields>
+        <field name="LCSC">C217770</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C217770"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c96eb62-41e1-4d35-9a03-4ffb317b702f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210190030_YAGEO-RT0603BRB0747KL_C860407.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C860407</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C860407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d309b785-24e5-4cff-8b8f-ec4b50645c65</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210190030_YAGEO-RT0603BRB0747KL_C860407.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C860407</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C860407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>498a3541-8ff7-4f41-9d05-a3a2cd8b537d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>26.1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2206021245_VO-SCR0402F26R1_C3015735.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3015735</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C3015735"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fe0d35f-d06f-41af-9838-f5b5f663ab1b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2205131800_VO-SCR0402J0R_C3017451.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3017451</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C3017451"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c5bac59-75bb-488c-91b8-de0c9000c195</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>26.1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2206021245_VO-SCR0402F26R1_C3015735.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3015735</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C3015735"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>507b99f2-9b2c-4d4c-ada6-a35d5b6afd75</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>26.1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2206021245_VO-SCR0402F26R1_C3015735.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3015735</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C3015735"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>252f8665-fc6f-41fd-b97d-a0a423df77bc</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603JA0272G_C101315.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C101315</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C101315"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee9d9e83-9b4a-4461-8e80-41d04d9d7550</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SIM800C</value>
+      <footprint>RF_GSM:SIMCom_SIM800C</footprint>
+      <datasheet>http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C69119</field>
+      </fields>
+      <libsource lib="RF_GSM" part="SIM800C" description="GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional"/>
+      <property name="LCSC" value="C69119"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_description" value="GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional"/>
+      <property name="ki_keywords" value="GSM GPRS Quad-Band SMS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46426ef5-22b3-4511-9dbd-8174bc230fe1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5209-4.2YS</value>
+      <footprint>MIC5209_4_2YS:SOT-223_S_MCL</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210171900_Microchip-Tech-MIC5209-4-2YS_C638643.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C638643</field>
+      </fields>
+      <libsource lib="MIC5209_4_2YM" part="MIC5209-4.2YS" description=""/>
+      <property name="LCSC" value="C638643"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SIM800 GPS Module.kicad_sch"/>
+      <property name="ki_keywords" value="MIC5209-4.2YS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c47a86a-84d9-4d31-ac83-cfde8efd48a5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small_Filled">
+      <description>Light emitting diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESDA6V1W5" part="ESDA6V1W5">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ESDA6V1W5</field>
+        <field name="Footprint">ESDA6V1W5:SOT65P210X110-5N</field>
+        <field name="DigiKey_Part_Number">497-7228-2-ND</field>
+        <field name="MF">STMicroelectronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.10mm</field>
+        <field name="Package">SOT-323 STMicroelectronics</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESDA6V1W5/STMicroelectronics/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">2</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESDA6V1W5/STMicroelectronics/view-part/?ref=snap</field>
+        <field name="MP">ESDA6V1W5</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225154&amp;manufacturer=STMicroelectronics&amp;part_name=ESDA6V1W5&amp;search_term= esda6v1w5</field>
+        <field name="Description">
+- Clamp - Ipp Tvs Diode Surface Mount SOT-323-5
+</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC5209_4_2YM" part="MIC5209-4.2YS">
+      <docs>MIC5209-4.2YS</docs>
+      <footprints>
+        <fp>SOT-223_S_MCL</fp>
+        <fp>SOT-223_S_MCL-M</fp>
+        <fp>SOT-223_S_MCL-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5209-4.2YS</field>
+        <field name="Footprint">SOT-223_S_MCL</field>
+        <field name="Datasheet">MIC5209-4.2YS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_GSM" part="SIM800C">
+      <description>GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional</description>
+      <docs>http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf</docs>
+      <footprints>
+        <fp>SIMCom*SIM800C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SIM800C</field>
+        <field name="Footprint">RF_GSM:SIMCom_SIM800C</field>
+        <field name="Datasheet">http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UART1_TXD" type="output"/>
+        <pin num="2" name="UART1_RXD" type="input"/>
+        <pin num="3" name="UART1_RTS" type="input"/>
+        <pin num="4" name="UART1_CTS" type="output"/>
+        <pin num="5" name="UART1_DCD" type="output"/>
+        <pin num="6" name="UART1_DTR" type="input"/>
+        <pin num="7" name="UART1_RI" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="MICP" type="input"/>
+        <pin num="10" name="MICN" type="input"/>
+        <pin num="11" name="SPKP" type="output"/>
+        <pin num="12" name="SPKN" type="output"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="SIM_DET" type="input"/>
+        <pin num="15" name="SIM_DATA" type="bidirectional"/>
+        <pin num="16" name="SIM_CLK" type="output"/>
+        <pin num="17" name="SIM_RST" type="output"/>
+        <pin num="18" name="SIM_VDD" type="power_out"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="BT_ANT" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="UART2_TXD" type="output"/>
+        <pin num="23" name="UART2_RXD" type="input"/>
+        <pin num="24" name="USB_VBUS" type="input"/>
+        <pin num="25" name="USB_DP" type="bidirectional"/>
+        <pin num="26" name="USB_DM" type="bidirectional"/>
+        <pin num="27" name="GND" type="passive"/>
+        <pin num="28" name="VRTC" type="power_in"/>
+        <pin num="29" name="RF_SYNC" type="output"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="GSM_ANT" type="passive"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="VBAT" type="power_in"/>
+        <pin num="35" name="VBAT" type="passive"/>
+        <pin num="36" name="GND" type="passive"/>
+        <pin num="37" name="GND" type="passive"/>
+        <pin num="38" name="ADC" type="input"/>
+        <pin num="39" name="~{PWRKEY}" type="input"/>
+        <pin num="40" name="VDD_EXT" type="power_out"/>
+        <pin num="41" name="NETLIGHT" type="output"/>
+        <pin num="42" name="STATUS" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SIM8051-6-0-14-00-X-REVD" part="SIM8051-6-0-14-00-X-REVD">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SIM8051-6-0-14-00-X-REVD</field>
+        <field name="Footprint">SIM8051-6-0-14-00-X-REVD:GCT_SIM8051-6-0-14-00-X-REVD</field>
+        <field name="MANUFACTURER">GCT</field>
+      </fields>
+      <pins>
+        <pin num="C1" name="VCC" type="power_in"/>
+        <pin num="C2" name="RST" type="input"/>
+        <pin num="C3" name="CLK" type="input"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="C6" name="VPP" type="power_in"/>
+        <pin num="C7" name="I/O" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="U.FL-R-SMT-1_10_" part="U.FL-R-SMT-1_10_">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">U.FL-R-SMT-1_10_</field>
+        <field name="Footprint">U.FL-R-SMT-1_10_:HRS_U.FL-R-SMT-1_10_</field>
+        <field name="DigiKey_Part_Number">H11891TR-ND</field>
+        <field name="MF">Hirose</field>
+        <field name="DESCRIPTION">U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">0.71 USD</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=snap</field>
+        <field name="MP">U.FL-R-SMT-1(10)</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=55192&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT-1(10)&amp;search_term=None</field>
+        <field name="Description">
+U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
+</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="MANUFACTURER">Hirose</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="ESDA6V1W5">
+      <uri>C:/Users/PC/OneDrive/Desktop/Helapay/New Buni-Box/Symbol Files/ESDA6V1W5/ESDA6V1W5.kicad_sym</uri>
+    </library>
+    <library logical="MIC5209_4_2YM">
+      <uri>C:/Users/PC/OneDrive/Desktop/Helapay/New Buni-Box/Symbol Files/MIC5209_4_2YS/MIC5209_4_2YM.kicad_sym</uri>
+    </library>
+    <library logical="RF_GSM">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/RF_GSM.kicad_sym</uri>
+    </library>
+    <library logical="SIM8051-6-0-14-00-X-REVD">
+      <uri>C:/Users/PC/OneDrive/Desktop/Helapay/New Buni-Box/Symbol Files/SIM8051_6_0_14_00_A/SIM8051-6-0-14-00-X-REVD.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="U.FL-R-SMT-1_10_">
+      <uri>C:/Users/PC/OneDrive/Desktop/Helapay/New Buni-Box/Symbol Files/U.FL-R-SMT-1_10_/U.FL-R-SMT-1_10_.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+4.2V">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="35" pinfunction="VBAT" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="C5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="GSM_PWRKY">
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="NETLIGHT">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="NETLIGHT" pintype="output"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="8" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J2-CLK)">
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="C3" pinfunction="CLK" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J2-I{slash}O)">
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="C7" pinfunction="I/O" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J2-RST)">
+      <node ref="D3" pin="3" pintype="passive"/>
+      <node ref="J2" pin="C2" pinfunction="RST" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J2-VCC)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D3" pin="4" pintype="passive"/>
+      <node ref="J2" pin="C1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="SIM_VDD" pintype="power_out"/>
+    </net>
+    <net code="17" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q3-B)">
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q3-C)">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="~{PWRKEY}" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(Q3-E)">
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U1-GSM_ANT)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="GSM_ANT" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(U1-SIM_CLK)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="SIM_CLK" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(U1-SIM_DATA)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SIM_DATA" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(U1-SIM_RST)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="SIM_RST" pintype="output"/>
+    </net>
+    <net code="25" name="RXD">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="UART2_RXD" pintype="input"/>
+    </net>
+    <net code="26" name="STATUS">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="U1" pin="42" pinfunction="STATUS" pintype="output"/>
+    </net>
+    <net code="27" name="TXD">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="UART2_TXD" pintype="output"/>
+    </net>
+    <net code="28" name="unconnected-(D3-Pad5)">
+      <node ref="D3" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J2-VPP-PadC6)">
+      <node ref="J2" pin="C6" pinfunction="VPP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-ADC-Pad38)">
+      <node ref="U1" pin="38" pinfunction="ADC" pintype="input+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-BT_ANT-Pad20)">
+      <node ref="U1" pin="20" pinfunction="BT_ANT" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-MICN-Pad10)">
+      <node ref="U1" pin="10" pinfunction="MICN" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-MICP-Pad9)">
+      <node ref="U1" pin="9" pinfunction="MICP" pintype="input+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-RF_SYNC-Pad29)">
+      <node ref="U1" pin="29" pinfunction="RF_SYNC" pintype="output+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-SIM_DET-Pad14)">
+      <node ref="U1" pin="14" pinfunction="SIM_DET" pintype="input+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-SPKN-Pad12)">
+      <node ref="U1" pin="12" pinfunction="SPKN" pintype="output+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-SPKP-Pad11)">
+      <node ref="U1" pin="11" pinfunction="SPKP" pintype="output+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-UART1_CTS-Pad4)">
+      <node ref="U1" pin="4" pinfunction="UART1_CTS" pintype="output+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-UART1_DCD-Pad5)">
+      <node ref="U1" pin="5" pinfunction="UART1_DCD" pintype="output+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-UART1_DTR-Pad6)">
+      <node ref="U1" pin="6" pinfunction="UART1_DTR" pintype="input+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-UART1_RI-Pad7)">
+      <node ref="U1" pin="7" pinfunction="UART1_RI" pintype="output+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-UART1_RTS-Pad3)">
+      <node ref="U1" pin="3" pinfunction="UART1_RTS" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-UART1_RXD-Pad2)">
+      <node ref="U1" pin="2" pinfunction="UART1_RXD" pintype="input+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-UART1_TXD-Pad1)">
+      <node ref="U1" pin="1" pinfunction="UART1_TXD" pintype="output+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-USB_DM-Pad26)">
+      <node ref="U1" pin="26" pinfunction="USB_DM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-USB_DP-Pad25)">
+      <node ref="U1" pin="25" pinfunction="USB_DP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-USB_VBUS-Pad24)">
+      <node ref="U1" pin="24" pinfunction="USB_VBUS" pintype="input+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-VDD_EXT-Pad40)">
+      <node ref="U1" pin="40" pinfunction="VDD_EXT" pintype="power_out+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-VRTC-Pad28)">
+      <node ref="U1" pin="28" pinfunction="VRTC" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
